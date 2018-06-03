@@ -1,4 +1,4 @@
-# itempackage_flashlight_sample
+# SteamVR Itempackage Flashlight Sample
 
 ![gif](https://i.imgur.com/GvqVcHGl.gif)
 
