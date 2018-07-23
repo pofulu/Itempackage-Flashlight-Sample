@@ -36,7 +36,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4012142497905850}
-  - component: {fileID: 114120178567511456}
+  - component: {fileID: 114368471879131170}
   m_Layer: 0
   m_Name: FlashLight
   m_TagString: Untagged
@@ -208,9 +208,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 3a9b1ea52a281ab4fb5b5a9621835f44, type: 2}
+  - {fileID: 2100000, guid: 504327fbb09bc954c9a27b0ac296929f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -243,9 +242,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 3a9b1ea52a281ab4fb5b5a9621835f44, type: 2}
+  - {fileID: 2100000, guid: 504327fbb09bc954c9a27b0ac296929f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -271,14 +269,14 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1372767811082810}
-  m_Mesh: {fileID: 4300002, guid: 982057879191b504281a13428c619c42, type: 3}
+  m_Mesh: {fileID: 4300002, guid: b2b455a0aa7f7554fa5818c5153d20cd, type: 3}
 --- !u!33 &33491414939125472
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000319082049068}
-  m_Mesh: {fileID: 4300000, guid: 982057879191b504281a13428c619c42, type: 3}
+  m_Mesh: {fileID: 4300000, guid: b2b455a0aa7f7554fa5818c5153d20cd, type: 3}
 --- !u!82 &82779368989150986
 AudioSource:
   m_ObjectHideFlags: 1
@@ -308,72 +306,57 @@ AudioSource:
   rolloffCustomCurve:
     serializedVersion: 2
     m_Curve:
-    - serializedVersion: 3
+    - serializedVersion: 2
       time: 0
       value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
+    - serializedVersion: 2
       time: 1
       value: 0
       inSlope: 0
       outSlope: 0
       tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
   panLevelCustomCurve:
     serializedVersion: 2
     m_Curve:
-    - serializedVersion: 3
+    - serializedVersion: 2
       time: 0
       value: 0
       inSlope: 0
       outSlope: 0
       tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   spreadCustomCurve:
     serializedVersion: 2
     m_Curve:
-    - serializedVersion: 3
+    - serializedVersion: 2
       time: 0
       value: 0
       inSlope: 0
       outSlope: 0
       tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   reverbZoneMixCustomCurve:
     serializedVersion: 2
     m_Curve:
-    - serializedVersion: 3
+    - serializedVersion: 2
       time: 0
       value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
 --- !u!108 &108119786943381784
 Light:
   m_ObjectHideFlags: 1
@@ -396,7 +379,7 @@ Light:
     m_Bias: 0.05
     m_NormalBias: 0.4
     m_NearPlane: 0.2
-  m_Cookie: {fileID: 2800000, guid: 7f64807712f20ab4a9c7109e3c639ac0, type: 3}
+  m_Cookie: {fileID: 2800000, guid: fa1eac81fa71ac041bf366554d34168e, type: 3}
   m_DrawHalo: 0
   m_Flare: {fileID: 0}
   m_RenderMode: 1
@@ -410,28 +393,6 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!114 &114120178567511456
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1348112462097386}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4c8eb55a03da19641bc6f8b08665e0b7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  turnOffOnAwake: 1
-  toggleButton: 32
-  lightSources:
-  - {fileID: 108119786943381784}
-  blob: {fileID: 23046206462927998}
-  lightOffEmission: 0
-  lightOnEmission: 8
-  button: {fileID: 4695146303309882}
-  displacement: 0.002
-  upDirection: 2
-  sfx: {fileID: 82779368989150986}
 --- !u!114 &114243777816146750
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -443,7 +404,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57468e6cbae21894fa42c90413c294ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemPackage: {fileID: 114105218924686052, guid: a87bff0741a7b9a419acd0515730c414,
+  itemPackage: {fileID: 114105218924686052, guid: a76fad38ec8682c4186b6f7c80418689,
     type: 2}
 --- !u!114 &114251761400037912
 MonoBehaviour:
@@ -467,6 +428,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b93b6a877adcbf94c89a9d6e0c0e844d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114368471879131170
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1348112462097386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a45adf5be7bd5c42b713e7603e2395e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turnOffOnAwake: 0
+  toggleButton: 32
+  lightSources:
+  - {fileID: 108119786943381784}
+  blob: {fileID: 23046206462927998}
+  lightOffEmission: 0
+  lightOnEmission: 8
+  button: {fileID: 4695146303309882}
+  displacement: 0.02
+  upDirection: 0
+  sfx: {fileID: 82779368989150986}
 --- !u!114 &114617796120822642
 MonoBehaviour:
   m_ObjectHideFlags: 1

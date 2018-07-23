@@ -53,9 +53,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Flashlight
   packageType: 1
-  itemPrefab: {fileID: 1730950801272842, guid: a3c6dce3012f03a4a9afa4cf7026f2a2, type: 2}
+  itemPrefab: {fileID: 1730950801272842, guid: 93ce35d6d836b304cbc15cb33399ff09, type: 2}
   otherHandItemPrefab: {fileID: 0}
-  previewPrefab: {fileID: 1001870313824802, guid: d7bb17ec4d705a04e9a799cc75944fde,
+  previewPrefab: {fileID: 1001870313824802, guid: 271a94a3876c230478e216b8b1926578,
     type: 2}
-  fadedPreviewPrefab: {fileID: 1949260511578386, guid: d28bbec4fb2e54843b4888aa03fba82e,
+  fadedPreviewPrefab: {fileID: 1949260511578386, guid: 47ca5d67c915c4b4890ba6cd0e2bccf0,
     type: 2}
